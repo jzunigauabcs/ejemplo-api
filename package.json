@@ -1,0 +1,25 @@
+{
+  "name": "ejemplo-api",
+  "version": "1.0.0",
+  "description": "Ejemplo de una pi en Nodejs, sequelize, postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzunigauabcs/ejemplo-api.git"
+  },
+  "author": "Jesus Antonio Zúñiga Arce <jzuniga@uabcs.mx>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzunigauabcs/ejemplo-api/issues"
+  },
+  "homepage": "https://github.com/jzunigauabcs/ejemplo-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.11.0",
+    "sequelize": "^5.8.7",
+    "uuid": "^3.3.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "/**.js",
+            "use": "@now/node-server@canary",
+            "config": {
+                "bundle": false
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/v1/(.*)",
+            "dest": "/index.js"
+        }
+    ],
+    "env": {
+        "PORT": 3000,
+        "DB_USER": "",
+        "DB_PASS": "",
+        "DB_HOST": "",
+        "DB_NAME": "",
+        "DB_PORT": "5432"
+    }
+}
